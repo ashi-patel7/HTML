@@ -2,10 +2,14 @@ body {
     background-color: rgba(155, 245, 245, 0.808);
   }
   h1 {
-    color: rgb(10, 34, 173);
-    margin-left: 50px;
+    color: rgb(14, 30, 124);
+    margin-left: 300px;
   }
   h3 {
     color: rgb(8, 148, 141);
-    margin-left: 50px;
+    margin-left: 300px;
+  }
+  h4 {
+    color: rgb(8, 92, 148);
+    margin-left: 300px;
   }
