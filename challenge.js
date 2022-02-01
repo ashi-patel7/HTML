@@ -18,6 +18,8 @@ for(let i = 1; i<=100; i++){ //iterate to 100
     }
 }
 
+for(let i=1; i<=100; i++) console.log(i%15==0?) //continue 
+
 //Write a program that will print the song "99 bottles of beer on the wall", based on the lyrics
 // x bottles of beer on the wall, x bottles of beer. take one down and pass it around x-1 bottles on the wall
 
