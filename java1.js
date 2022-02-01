@@ -5,31 +5,12 @@ console.info("Patel");
 console.warn("London");
 console.error("Capricorn");
 
-text = "Experimenting with CSS properties"
-console.log('%C' + text, 'font-family:fantasy', 'color:orange','background-color:black', 'font-style:bold', 'padding:10px' )
+let text_example = "Experimenting with CSS properties";
+console.log('%c'+ text_example, 'font-family:fantasy; color:orange; background-color:black; font-style:bold; padding:10px');
 
 console.log("Hello World!");
 
-let text = `this is a message`;
-
-console.log(text);
-
-console.info(text);
-
-console.warn(text);
-
-console.error(text);
-
-console.log(`%c` + text, `color:black; background-color:white; font-size: 20px; padding: 10px;`);
-
-console.log(`%c` + text + ` ` + `%c` + text, `color: red;`, `color:blue;`);
-
-let a = 1;
-const b = 2;
-
-var c = 3;
-
-// cameelCase
+// Variables - Cameron EXAMPLE
 
 let aBoolean = true;
 console.log(aBoolean);
@@ -60,7 +41,7 @@ let myObject = {
 
 console.log(myObject);
 
-// STRINGS
+// STRINGS - Cameron example
 
 let string1 = `34 * 872 = `;
 let result = 34*872;
@@ -69,3 +50,17 @@ console.log(string1 + result);
 let string2 = `34 * 872 = ${34*872}`;
 
 console.log(string2);
+
+// Variables exercise
+
+let a;
+let b = "12345";
+let c = 12344;
+let d = true;
+let e = {a:"JavaScript"};
+
+typeof(a);
+typeof(b);
+typeof(c);
+typeof(d);
+typeof(e);
