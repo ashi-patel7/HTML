@@ -1,3 +1,4 @@
+
 //OBJECTS
 let darthVader = {
     allegiance: "Empire",
@@ -14,8 +15,8 @@ let darthVader = {
 //ARRAYS
 let MyArray = Array('hello', 'everyone');
 
-console.log(MyArray.length); 
-console.log(MyArray.push('today', 'is', 'wednesday')); //adding elements
+//console.log(MyArray.length); 
+//console.log(MyArray.push('today', 'is', 'wednesday')); //adding elements
 //console.log(MyArray.length);
 MyArray.shift(); //removing first element
 
@@ -29,7 +30,7 @@ function subtract(num1, num2){
     return num1-num2;
 }
 
-console.log(subtract(45,19));
+//console.log(subtract(45,19));
 
 //FUNCTION EXPRESSIONS
 
@@ -43,6 +44,29 @@ let welcome = function(name,age,gender) {
 //ARROW FUNCTION
 
 powerUp = (n1, n2) => console.log(Math.pow(n1,n2));
+//powerUp(3,3);
 
-powerUp(2,3);
-powerUp(3,3);
+//let powerUp = (n1, n2) => (Math.pow(n1,n2)); 
+//console.log(powerUp(2,3));
+
+//SCOPE
+
+function a(){
+    let b = 'My function'; 
+    if (b=='My function'){
+        let c='Good function'; //local variable c
+    }
+    console.log(b); //returns my function
+    //console.log(c); //reference error - c is not defined
+}
+a();
+
+//function doSomething() {
+   // console.log(a); //uncaught references error, cannot access a before initialisation = a is not declared
+  //  console.log(foo());
+  //  let a = 1;
+ //   function foo() {
+ ///     return 2;
+  //  }
+ // }
+  //doSomething();
